@@ -1,0 +1,38 @@
+{
+  "name": "pva-dapp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "abi": "node scripts/copy-abi.js",
+    "test": "vitest --run",
+    "test:watch": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.16",
+    "@types/react-window": "^1.8.8",
+    "ethers": "^6.12.1",
+    "framer-motion": "^10.16.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-window": "^2.2.5",
+    "zustand": "^5.0.9"
+  },
+  "devDependencies": {
+    "@fast-check/vitest": "^0.2.4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@vitejs/plugin-react": "^4.3.0",
+    "@vitest/ui": "^4.0.16",
+    "autoprefixer": "^10.4.19",
+    "hardhat": "^2.22.5",
+    "jsdom": "^27.4.0",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8",
+    "vitest": "^4.0.16"
+  }
+}
